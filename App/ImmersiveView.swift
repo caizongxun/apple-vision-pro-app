@@ -1,12 +1,10 @@
 import SwiftUI
 import RealityKit
-import RealityKitContent
 
 struct ImmersiveView: View {
 
     var body: some View {
         RealityView { content in
-            // Add a basic 3D sphere as a placeholder
             let sphere = ModelEntity(
                 mesh: .generateSphere(radius: 0.1),
                 materials: [SimpleMaterial(color: .systemBlue, isMetallic: true)]
