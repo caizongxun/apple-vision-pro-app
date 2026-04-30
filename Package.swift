@@ -9,10 +9,7 @@ let package = Package(
     targets: [
         .target(
             name: "VisionProApp",
-            path: "App",
-            resources: [
-                .process("Assets.xcassets")
-            ]
+            path: "App"
         )
     ]
 )
