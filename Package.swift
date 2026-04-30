@@ -7,7 +7,7 @@ let package = Package(
         .visionOS(.v1)
     ],
     targets: [
-        .executableTarget(
+        .target(
             name: "VisionProApp",
             path: "App",
             resources: [
